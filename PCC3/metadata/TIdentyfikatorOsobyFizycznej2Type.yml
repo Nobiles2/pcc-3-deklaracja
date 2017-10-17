@@ -1,0 +1,42 @@
+KCH\PCC3\TIdentyfikatorOsobyFizycznej2Type:
+    properties:
+        nIP:
+            expose: true
+            access_type: public_method
+            serialized_name: NIP
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getNIP
+                setter: setNIP
+            type: string
+        imiePierwsze:
+            expose: true
+            access_type: public_method
+            serialized_name: ImiePierwsze
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getImiePierwsze
+                setter: setImiePierwsze
+            type: string
+        nazwisko:
+            expose: true
+            access_type: public_method
+            serialized_name: Nazwisko
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getNazwisko
+                setter: setNazwisko
+            type: string
+        dataUrodzenia:
+            expose: true
+            access_type: public_method
+            serialized_name: DataUrodzenia
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getDataUrodzenia
+                setter: setDataUrodzenia
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date

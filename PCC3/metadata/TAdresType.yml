@@ -1,0 +1,22 @@
+KCH\PCC3\TAdresType:
+    properties:
+        adresPol:
+            expose: true
+            access_type: public_method
+            serialized_name: AdresPol
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getAdresPol
+                setter: setAdresPol
+            type: KCH\PCC3\TAdresPolskiType
+        adresZagr:
+            expose: true
+            access_type: public_method
+            serialized_name: AdresZagr
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getAdresZagr
+                setter: setAdresZagr
+            type: KCH\PCC3\TAdresZagranicznyType

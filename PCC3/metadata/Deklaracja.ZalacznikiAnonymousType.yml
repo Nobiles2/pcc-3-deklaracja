@@ -1,0 +1,12 @@
+KCH\PCC3\Deklaracja\ZalacznikiAnonymousType:
+    properties:
+        zalacznikORDZU:
+            expose: true
+            access_type: public_method
+            serialized_name: Zalacznik_ORD-ZU
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/10/07/eD/ORDZU/'
+            accessor:
+                getter: getZalacznikORDZU
+                setter: setZalacznikORDZU
+            type: KCH\PCC3\ZalacznikORDZU

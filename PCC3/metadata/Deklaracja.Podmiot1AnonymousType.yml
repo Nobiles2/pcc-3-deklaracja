@@ -1,0 +1,41 @@
+KCH\PCC3\Deklaracja\Podmiot1AnonymousType:
+    properties:
+        rola:
+            expose: true
+            access_type: public_method
+            serialized_name: rola
+            accessor:
+                getter: getRola
+                setter: setRola
+            xml_attribute: true
+            type: string
+        osobaFizyczna:
+            expose: true
+            access_type: public_method
+            serialized_name: OsobaFizyczna
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getOsobaFizyczna
+                setter: setOsobaFizyczna
+            type: KCH\PCC3\Deklaracja\Podmiot1AnonymousType\OsobaFizycznaAnonymousType
+        osobaNiefizyczna:
+            expose: true
+            access_type: public_method
+            serialized_name: OsobaNiefizyczna
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getOsobaNiefizyczna
+                setter: setOsobaNiefizyczna
+            type: KCH\PCC3\TIdentyfikatorOsobyNiefizycznejType
+        adresZamieszkaniaSiedziby:
+            expose: true
+            access_type: public_method
+            serialized_name: AdresZamieszkaniaSiedziby
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getAdresZamieszkaniaSiedziby
+                setter: setAdresZamieszkaniaSiedziby
+            type: KCH\PCC3\Deklaracja\Podmiot1AnonymousType\AdresZamieszkaniaSiedzibyAnonymousType

@@ -1,0 +1,22 @@
+KCH\PCC3\Deklaracja\Podmiot1AnonymousType\OsobaFizycznaAnonymousType:
+    properties:
+        imieOjca:
+            expose: true
+            access_type: public_method
+            serialized_name: ImieOjca
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getImieOjca
+                setter: setImieOjca
+            type: string
+        imieMatki:
+            expose: true
+            access_type: public_method
+            serialized_name: ImieMatki
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getImieMatki
+                setter: setImieMatki
+            type: string

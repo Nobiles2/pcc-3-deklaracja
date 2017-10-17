@@ -1,0 +1,464 @@
+KCH\PCC3\PozycjeSzczegolowe:
+    xml_root_name: PozycjeSzczegolowe
+    xml_root_namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+    properties:
+        p7:
+            expose: true
+            access_type: public_method
+            serialized_name: P_7
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP7
+                setter: setP7
+            type: string
+        p21:
+            expose: true
+            access_type: public_method
+            serialized_name: P_21
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP21
+                setter: setP21
+            type: string
+        p22:
+            expose: true
+            access_type: public_method
+            serialized_name: P_22
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP22
+                setter: setP22
+            type: string
+        p23:
+            expose: true
+            access_type: public_method
+            serialized_name: P_23
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP23
+                setter: setP23
+            type: string
+        p24:
+            expose: true
+            access_type: public_method
+            serialized_name: P_24
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP24
+                setter: setP24
+            type: string
+        p25:
+            expose: true
+            access_type: public_method
+            serialized_name: P_25
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP25
+                setter: setP25
+            type: integer
+        p26:
+            expose: true
+            access_type: public_method
+            serialized_name: P_26
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP26
+                setter: setP26
+            type: integer
+        p27:
+            expose: true
+            access_type: public_method
+            serialized_name: P_27
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP27
+                setter: setP27
+            type: integer
+        p28:
+            expose: true
+            access_type: public_method
+            serialized_name: P_28
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP28
+                setter: setP28
+            type: integer
+        p29:
+            expose: true
+            access_type: public_method
+            serialized_name: P_29
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP29
+                setter: setP29
+            type: integer
+        p30:
+            expose: true
+            access_type: public_method
+            serialized_name: P_30
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP30
+                setter: setP30
+            type: float
+        p31:
+            expose: true
+            access_type: public_method
+            serialized_name: P_31
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP31
+                setter: setP31
+            type: integer
+        p32:
+            expose: true
+            access_type: public_method
+            serialized_name: P_32
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP32
+                setter: setP32
+            type: integer
+        p33:
+            expose: true
+            access_type: public_method
+            serialized_name: P_33
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP33
+                setter: setP33
+            type: float
+        p34:
+            expose: true
+            access_type: public_method
+            serialized_name: P_34
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP34
+                setter: setP34
+            type: integer
+        p35:
+            expose: true
+            access_type: public_method
+            serialized_name: P_35
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP35
+                setter: setP35
+            type: integer
+        p36:
+            expose: true
+            access_type: public_method
+            serialized_name: P_36
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP36
+                setter: setP36
+            type: float
+        p37:
+            expose: true
+            access_type: public_method
+            serialized_name: P_37
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP37
+                setter: setP37
+            type: integer
+        p38:
+            expose: true
+            access_type: public_method
+            serialized_name: P_38
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP38
+                setter: setP38
+            type: integer
+        p39:
+            expose: true
+            access_type: public_method
+            serialized_name: P_39
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP39
+                setter: setP39
+            type: float
+        p40:
+            expose: true
+            access_type: public_method
+            serialized_name: P_40
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP40
+                setter: setP40
+            type: integer
+        p41:
+            expose: true
+            access_type: public_method
+            serialized_name: P_41
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP41
+                setter: setP41
+            type: integer
+        p42:
+            expose: true
+            access_type: public_method
+            serialized_name: P_42
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP42
+                setter: setP42
+            type: integer
+        p43:
+            expose: true
+            access_type: public_method
+            serialized_name: P_43
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP43
+                setter: setP43
+            type: integer
+        p44A:
+            expose: true
+            access_type: public_method
+            serialized_name: P_44A
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP44A
+                setter: setP44A
+            type: string
+        p44:
+            expose: true
+            access_type: public_method
+            serialized_name: P_44
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP44
+                setter: setP44
+            type: integer
+        p45:
+            expose: true
+            access_type: public_method
+            serialized_name: P_45
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP45
+                setter: setP45
+            type: float
+        p46:
+            expose: true
+            access_type: public_method
+            serialized_name: P_46
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP46
+                setter: setP46
+            type: integer
+        p47:
+            expose: true
+            access_type: public_method
+            serialized_name: P_47
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP47
+                setter: setP47
+            type: integer
+        p48:
+            expose: true
+            access_type: public_method
+            serialized_name: P_48
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP48
+                setter: setP48
+            type: string
+        p49:
+            expose: true
+            access_type: public_method
+            serialized_name: P_49
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP49
+                setter: setP49
+            type: string
+        p50:
+            expose: true
+            access_type: public_method
+            serialized_name: P_50
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP50
+                setter: setP50
+            type: integer
+        p51:
+            expose: true
+            access_type: public_method
+            serialized_name: P_51
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP51
+                setter: setP51
+            type: float
+        p52:
+            expose: true
+            access_type: public_method
+            serialized_name: P_52
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP52
+                setter: setP52
+            type: float
+        p53:
+            expose: true
+            access_type: public_method
+            serialized_name: P_53
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP53
+                setter: setP53
+            type: integer
+        p54:
+            expose: true
+            access_type: public_method
+            serialized_name: P_54
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP54
+                setter: setP54
+            type: integer
+        p55:
+            expose: true
+            access_type: public_method
+            serialized_name: P_55
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP55
+                setter: setP55
+            type: string
+        p56:
+            expose: true
+            access_type: public_method
+            serialized_name: P_56
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP56
+                setter: setP56
+            type: string
+        p57:
+            expose: true
+            access_type: public_method
+            serialized_name: P_57
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP57
+                setter: setP57
+            type: string
+        p58:
+            expose: true
+            access_type: public_method
+            serialized_name: P_58
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP58
+                setter: setP58
+            type: string
+        p59:
+            expose: true
+            access_type: public_method
+            serialized_name: P_59
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP59
+                setter: setP59
+            type: string
+        p60:
+            expose: true
+            access_type: public_method
+            serialized_name: P_60
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP60
+                setter: setP60
+            type: string
+        p61:
+            expose: true
+            access_type: public_method
+            serialized_name: P_61
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP61
+                setter: setP61
+            type: string
+        p62:
+            expose: true
+            access_type: public_method
+            serialized_name: P_62
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP62
+                setter: setP62
+            type: string
+        p63:
+            expose: true
+            access_type: public_method
+            serialized_name: P_63
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP63
+                setter: setP63
+            type: string
+        p64:
+            expose: true
+            access_type: public_method
+            serialized_name: P_64
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getP64
+                setter: setP64
+            type: integer

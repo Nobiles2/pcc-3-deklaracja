@@ -1,0 +1,28 @@
+KCH\PCC3\TNaglowekORDZUType\KodFormularzaAnonymousType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        kodSystemowy:
+            expose: true
+            access_type: public_method
+            serialized_name: kodSystemowy
+            accessor:
+                getter: getKodSystemowy
+                setter: setKodSystemowy
+            xml_attribute: true
+            type: string
+        wersjaSchemy:
+            expose: true
+            access_type: public_method
+            serialized_name: wersjaSchemy
+            accessor:
+                getter: getWersjaSchemy
+                setter: setWersjaSchemy
+            xml_attribute: true
+            type: string

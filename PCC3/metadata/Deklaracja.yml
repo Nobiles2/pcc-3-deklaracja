@@ -1,0 +1,64 @@
+KCH\PCC3\Deklaracja:
+    xml_root_name: Deklaracja
+    xml_root_namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+    properties:
+        naglowek:
+            expose: true
+            access_type: public_method
+            serialized_name: Naglowek
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getNaglowek
+                setter: setNaglowek
+            type: KCH\PCC3\TNaglowekType
+        podmiot1:
+            expose: true
+            access_type: public_method
+            serialized_name: Podmiot1
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getPodmiot1
+                setter: setPodmiot1
+            type: KCH\PCC3\Deklaracja\Podmiot1AnonymousType
+        pozycjeSzczegolowe:
+            expose: true
+            access_type: public_method
+            serialized_name: PozycjeSzczegolowe
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getPozycjeSzczegolowe
+                setter: setPozycjeSzczegolowe
+            type: KCH\PCC3\PozycjeSzczegolowe
+        pouczenie1:
+            expose: true
+            access_type: public_method
+            serialized_name: Pouczenie1
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getPouczenie1
+                setter: setPouczenie1
+            type: string
+        pouczenie2:
+            expose: true
+            access_type: public_method
+            serialized_name: Pouczenie2
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getPouczenie2
+                setter: setPouczenie2
+            type: string
+        zalaczniki:
+            expose: true
+            access_type: public_method
+            serialized_name: Zalaczniki
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getZalaczniki
+                setter: setZalaczniki
+            type: KCH\PCC3\Deklaracja\ZalacznikiAnonymousType

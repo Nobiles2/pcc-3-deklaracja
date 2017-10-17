@@ -1,0 +1,102 @@
+KCH\PCC3\TAdresPolskiType:
+    properties:
+        kodKraju:
+            expose: true
+            access_type: public_method
+            serialized_name: KodKraju
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getKodKraju
+                setter: setKodKraju
+            type: string
+        wojewodztwo:
+            expose: true
+            access_type: public_method
+            serialized_name: Wojewodztwo
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getWojewodztwo
+                setter: setWojewodztwo
+            type: string
+        powiat:
+            expose: true
+            access_type: public_method
+            serialized_name: Powiat
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getPowiat
+                setter: setPowiat
+            type: string
+        gmina:
+            expose: true
+            access_type: public_method
+            serialized_name: Gmina
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getGmina
+                setter: setGmina
+            type: string
+        ulica:
+            expose: true
+            access_type: public_method
+            serialized_name: Ulica
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getUlica
+                setter: setUlica
+            type: string
+        nrDomu:
+            expose: true
+            access_type: public_method
+            serialized_name: NrDomu
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getNrDomu
+                setter: setNrDomu
+            type: string
+        nrLokalu:
+            expose: true
+            access_type: public_method
+            serialized_name: NrLokalu
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getNrLokalu
+                setter: setNrLokalu
+            type: string
+        miejscowosc:
+            expose: true
+            access_type: public_method
+            serialized_name: Miejscowosc
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getMiejscowosc
+                setter: setMiejscowosc
+            type: string
+        kodPocztowy:
+            expose: true
+            access_type: public_method
+            serialized_name: KodPocztowy
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getKodPocztowy
+                setter: setKodPocztowy
+            type: string
+        poczta:
+            expose: true
+            access_type: public_method
+            serialized_name: Poczta
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getPoczta
+                setter: setPoczta
+            type: string

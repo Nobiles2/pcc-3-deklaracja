@@ -1,0 +1,11 @@
+xsd2php:
+  namespaces:
+    'http://crd.gov.pl/wzor/2015/12/11/2973/': 'KCH\PCC3'
+    'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/': 'KCH\PCC3'
+    'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/10/07/eD/ORDZU/': 'KCH\PCC3'
+  destinations_php:
+    'KCH\PCC3': PCC3
+  destinations_jms:
+    'KCH\PCC3': PCC3/metadata
+  naming_strategy: long # optional and default
+  path_generator: psr4 # optional and default

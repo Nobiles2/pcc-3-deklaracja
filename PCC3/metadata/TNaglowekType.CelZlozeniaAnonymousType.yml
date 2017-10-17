@@ -1,0 +1,19 @@
+KCH\PCC3\TNaglowekType\CelZlozeniaAnonymousType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        poz:
+            expose: true
+            access_type: public_method
+            serialized_name: poz
+            accessor:
+                getter: getPoz
+                setter: setPoz
+            xml_attribute: true
+            type: string

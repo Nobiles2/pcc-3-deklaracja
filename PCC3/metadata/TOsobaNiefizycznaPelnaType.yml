@@ -1,0 +1,22 @@
+KCH\PCC3\TOsobaNiefizycznaPelnaType:
+    properties:
+        osobaNiefizyczna:
+            expose: true
+            access_type: public_method
+            serialized_name: OsobaNiefizyczna
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getOsobaNiefizyczna
+                setter: setOsobaNiefizyczna
+            type: KCH\PCC3\TIdentyfikatorOsobyNiefizycznejPelnyType
+        adresSiedziby:
+            expose: true
+            access_type: public_method
+            serialized_name: AdresSiedziby
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getAdresSiedziby
+                setter: setAdresSiedziby
+            type: KCH\PCC3\TOsobaNiefizycznaPelnaType\AdresSiedzibyAnonymousType

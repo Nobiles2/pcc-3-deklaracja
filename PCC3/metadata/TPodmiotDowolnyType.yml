@@ -1,0 +1,12 @@
+KCH\PCC3\TPodmiotDowolnyType:
+    properties:
+        adresZamieszkaniaSiedziby:
+            expose: true
+            access_type: public_method
+            serialized_name: AdresZamieszkaniaSiedziby
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getAdresZamieszkaniaSiedziby
+                setter: setAdresZamieszkaniaSiedziby
+            type: KCH\PCC3\TPodmiotDowolnyType\AdresZamieszkaniaSiedzibyAnonymousType

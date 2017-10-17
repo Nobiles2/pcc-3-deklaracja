@@ -1,0 +1,32 @@
+KCH\PCC3\TPodmiotDowolnyPelnyType:
+    properties:
+        osobaFizyczna:
+            expose: true
+            access_type: public_method
+            serialized_name: OsobaFizyczna
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getOsobaFizyczna
+                setter: setOsobaFizyczna
+            type: KCH\PCC3\TIdentyfikatorOsobyFizycznejPelnyType
+        osobaNiefizyczna:
+            expose: true
+            access_type: public_method
+            serialized_name: OsobaNiefizyczna
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getOsobaNiefizyczna
+                setter: setOsobaNiefizyczna
+            type: KCH\PCC3\TIdentyfikatorOsobyNiefizycznejPelnyType
+        adresZamieszkaniaSiedziby:
+            expose: true
+            access_type: public_method
+            serialized_name: AdresZamieszkaniaSiedziby
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getAdresZamieszkaniaSiedziby
+                setter: setAdresZamieszkaniaSiedziby
+            type: KCH\PCC3\TPodmiotDowolnyPelnyType\AdresZamieszkaniaSiedzibyAnonymousType

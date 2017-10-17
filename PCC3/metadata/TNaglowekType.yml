@@ -1,0 +1,52 @@
+KCH\PCC3\TNaglowekType:
+    properties:
+        kodFormularza:
+            expose: true
+            access_type: public_method
+            serialized_name: KodFormularza
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getKodFormularza
+                setter: setKodFormularza
+            type: KCH\PCC3\TNaglowekType\KodFormularzaAnonymousType
+        wariantFormularza:
+            expose: true
+            access_type: public_method
+            serialized_name: WariantFormularza
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getWariantFormularza
+                setter: setWariantFormularza
+            type: string
+        celZlozenia:
+            expose: true
+            access_type: public_method
+            serialized_name: CelZlozenia
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getCelZlozenia
+                setter: setCelZlozenia
+            type: KCH\PCC3\TNaglowekType\CelZlozeniaAnonymousType
+        data:
+            expose: true
+            access_type: public_method
+            serialized_name: Data
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getData
+                setter: setData
+            type: KCH\PCC3\TNaglowekType\DataAnonymousType
+        kodUrzedu:
+            expose: true
+            access_type: public_method
+            serialized_name: KodUrzedu
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getKodUrzedu
+                setter: setKodUrzedu
+            type: string

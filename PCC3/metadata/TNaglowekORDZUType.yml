@@ -1,0 +1,22 @@
+KCH\PCC3\TNaglowekORDZUType:
+    properties:
+        kodFormularza:
+            expose: true
+            access_type: public_method
+            serialized_name: KodFormularza
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/10/07/eD/ORDZU/'
+            accessor:
+                getter: getKodFormularza
+                setter: setKodFormularza
+            type: KCH\PCC3\TNaglowekORDZUType\KodFormularzaAnonymousType
+        wariantFormularza:
+            expose: true
+            access_type: public_method
+            serialized_name: WariantFormularza
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/10/07/eD/ORDZU/'
+            accessor:
+                getter: getWariantFormularza
+                setter: setWariantFormularza
+            type: string

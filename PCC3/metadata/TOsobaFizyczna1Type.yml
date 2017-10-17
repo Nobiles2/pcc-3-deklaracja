@@ -1,0 +1,22 @@
+KCH\PCC3\TOsobaFizyczna1Type:
+    properties:
+        osobaFizyczna:
+            expose: true
+            access_type: public_method
+            serialized_name: OsobaFizyczna
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getOsobaFizyczna
+                setter: setOsobaFizyczna
+            type: KCH\PCC3\TIdentyfikatorOsobyFizycznej1Type
+        adresZamieszkania:
+            expose: true
+            access_type: public_method
+            serialized_name: AdresZamieszkania
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getAdresZamieszkania
+                setter: setAdresZamieszkania
+            type: KCH\PCC3\TOsobaFizyczna1Type\AdresZamieszkaniaAnonymousType

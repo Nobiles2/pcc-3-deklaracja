@@ -1,0 +1,32 @@
+KCH\PCC3\TIdentyfikatorOsobyNiefizycznejType:
+    properties:
+        nIP:
+            expose: true
+            access_type: public_method
+            serialized_name: NIP
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getNIP
+                setter: setNIP
+            type: string
+        pelnaNazwa:
+            expose: true
+            access_type: public_method
+            serialized_name: PelnaNazwa
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getPelnaNazwa
+                setter: setPelnaNazwa
+            type: string
+        skroconaNazwa:
+            expose: true
+            access_type: public_method
+            serialized_name: SkroconaNazwa
+            xml_element:
+                namespace: 'http://crd.gov.pl/wzor/2015/12/11/2973/'
+            accessor:
+                getter: getSkroconaNazwa
+                setter: setSkroconaNazwa
+            type: string

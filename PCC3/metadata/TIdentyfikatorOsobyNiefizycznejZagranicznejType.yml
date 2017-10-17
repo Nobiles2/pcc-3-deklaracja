@@ -1,0 +1,32 @@
+KCH\PCC3\TIdentyfikatorOsobyNiefizycznejZagranicznejType:
+    properties:
+        pelnaNazwa:
+            expose: true
+            access_type: public_method
+            serialized_name: PelnaNazwa
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getPelnaNazwa
+                setter: setPelnaNazwa
+            type: string
+        skroconaNazwa:
+            expose: true
+            access_type: public_method
+            serialized_name: SkroconaNazwa
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getSkroconaNazwa
+                setter: setSkroconaNazwa
+            type: string
+        nIP:
+            expose: true
+            access_type: public_method
+            serialized_name: NIP
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/06/21/eD/DefinicjeTypy/'
+            accessor:
+                getter: getNIP
+                setter: setNIP
+            type: string

@@ -1,0 +1,12 @@
+KCH\PCC3\ZalacznikORDZU\PozycjeSzczegoloweAnonymousType:
+    properties:
+        p13:
+            expose: true
+            access_type: public_method
+            serialized_name: P_13
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2011/10/07/eD/ORDZU/'
+            accessor:
+                getter: getP13
+                setter: setP13
+            type: KCH\PCC3\ZalacznikORDZU\PozycjeSzczegoloweAnonymousType\P13AnonymousType
