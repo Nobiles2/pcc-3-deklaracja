@@ -4,7 +4,7 @@ Klasy umożliwiające budowę Deklaracji PCC3 i automatyczną budowę xml za pom
 
 ### Instalacja
 ``
-composer require kch/pcc-3-deklaracja:dev-master
+composer require kch/pcc-3-deklaracja
 ``
 
 #### Użycie klas z biblioteki
@@ -34,5 +34,5 @@ Ta funkcjonalność będzie wykorzystywana tylko przy aktualizacji deklaracji
 vendor/bin/xsd2php convert ./config.yml ./schemat.xsd
 ``
 
-## Author
+## Autor
 Jonkisz Paweł 
