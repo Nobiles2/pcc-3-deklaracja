@@ -26,6 +26,13 @@ class TIdentyfikatorOsobyNiefizycznejType
     private $pelnaNazwa = null;
 
     /**
+     * Skrócona nazwa
+     *
+     * @property string $skroconaNazwa
+     */
+    private $skroconaNazwa = null;
+
+    /**
      * Numer REGON
      *
      * @property string $rEGON
@@ -110,6 +117,30 @@ class TIdentyfikatorOsobyNiefizycznejType
         return $this;
     }
 
+    /**
+     * Gets as skroconaNazwa
+     *
+     * Skrócona nazwa
+     *
+     * @return string
+     */
+    public function getSkroconaNazwa()
+    {
+        return $this->skroconaNazwa;
+    }
 
+    /**
+     * Sets a new skroconaNazwa
+     *
+     * Skrócona nazwa
+     *
+     * @param string $skroconaNazwa
+     * @return self
+     */
+    public function setSkroconaNazwa($skroconaNazwa)
+    {
+        $this->skroconaNazwa = $skroconaNazwa;
+        return $this;
+    }
 }
 

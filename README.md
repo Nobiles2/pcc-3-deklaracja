@@ -34,5 +34,9 @@ Ta funkcjonalność będzie wykorzystywana tylko przy aktualizacji deklaracji
 vendor/bin/xsd2php convert ./config.yml ./schemat.xsd
 ``
 
+### Uwagi
+
+Niepoprawnie generuje się klasa osoby nie fizycznej trzeba ręcznie dodać skróconą nazwę
+
 ## Author
 Jonkisz Paweł 
