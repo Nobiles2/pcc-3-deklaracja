@@ -38,5 +38,5 @@ vendor/bin/xsd2php convert ./config.yml ./schemat.xsd
 
 Niepoprawnie generuje się klasa osoby nie fizycznej trzeba ręcznie dodać skróconą nazwę
 
-## Author
+## Autor
 Jonkisz Paweł 
